@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c646003c-e1a1-4f96-833a-f6a146234064)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 127 77.47) (size 30.48 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 165 245 1.0000))
+    (uuid 4fb5d043-5efd-4b64-9ebf-9dabbf04a320)
+    (property "Sheetname" "STM32" (at 127 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "stm32.kicad_sch" (at 127 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "engine-controller"
+        (path "/c646003c-e1a1-4f96-833a-f6a146234064" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
