@@ -289,7 +289,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 100,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -362,6 +362,22 @@
     [
       "3876ba3a-79bc-4ea1-ac11-d8cda5e1f712",
       "PT3"
+    ],
+    [
+      "a47a6ff7-b73a-4ddd-8d81-b90c90c14b49",
+      "Power"
+    ],
+    [
+      "8effeb94-63d5-4e42-a327-0e2b603ed484",
+      "Switch0"
+    ],
+    [
+      "32720c4e-604d-42c4-85d8-a159ef9b7b72",
+      "Switch1"
+    ],
+    [
+      "cbec6428-35b8-4abf-917f-10ecbcc75a6a",
+      "Switch2"
     ]
   ],
   "text_variables": {}
