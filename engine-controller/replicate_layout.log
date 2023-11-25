@@ -1,0 +1,69 @@
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, May 18 2023, 07:48:16) [MSC v.1936 64 bit (AMD64)]'
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.6
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001E2EF868940>
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with IC401 as a reference
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'IC401'
+Located on: ['TC1']
+With filenames: ['thermocouple.kicad_sch']
+With sheet_id:['TC1']
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('IC601', ['TC3']), ('IC501', ['TC2']), ('IC401', ['TC1']), ('IC301', ['TC0'])]
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'TC1', file:'thermocouple.kicad_sch'
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['TC0'], ['TC2'], ['TC3']]
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['TC1']
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(917, 105)
+11-25 12:48:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(478, 105)
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'TC1', file:'thermocouple.kicad_sch'
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['TC0'], ['TC2'], ['TC3']]
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['TC0'], ['TC2'], ['TC3']]
+on level: ['TC1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+11-25 12:48:38 root 332:updating GUI message: 'Preparing for replication'
+11-25 12:48:38 root 337:updating GUI with: 0
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+11-25 12:48:38 root 332:updating GUI message: 'Replicating footprints'
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['TC0']
+11-25 12:48:38 root 337:updating GUI with: 11
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['TC2']
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['TC3']
+11-25 12:48:38 root 332:updating GUI message: 'Replicating tracks'
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['TC0']
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['TC0'] :[('/TC1/DNC', '/TC0/DNC'), ('/TC1/~{DRDY}', '/TC0/~{DRDY}'), ('+3.3V', '+3.3V'), ('/TC1/~{FAULT}', '/TC0/~{FAULT}'), ('/STM32/SPI1_SCK', '/STM32/SPI1_SCK'), ('/TC1/T+', '/TC0/T+'), ('/STM32/SPI1_MISO', '/STM32/SPI1_MISO'), ('/STM32/SPI1_MOSI', '/STM32/SPI1_MOSI'), ('GND', 'GND'), ('/STM32/PB8', '/STM32/PB9'), ('/TC1/T-', '/TC0/T-')]
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['TC2']
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['TC2'] :[('/TC1/~{FAULT}', '/TC2/~{FAULT}'), ('+3.3V', '+3.3V'), ('/TC1/DNC', '/TC2/DNC'), ('/STM32/PB8', '/STM32/PB7'), ('/STM32/SPI1_SCK', '/STM32/SPI1_SCK'), ('/TC1/~{DRDY}', '/TC2/~{DRDY}'), ('/STM32/SPI1_MISO', '/STM32/SPI1_MISO'), ('/STM32/SPI1_MOSI', '/STM32/SPI1_MOSI'), ('GND', 'GND'), ('/TC1/T+', '/TC2/T+'), ('/TC1/T-', '/TC2/T-')]
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['TC3']
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['TC3'] :[('+3.3V', '+3.3V'), ('/STM32/PB8', '/STM32/PB6'), ('/TC1/T+', '/TC3/T+'), ('/TC1/T-', '/TC3/T-'), ('/STM32/SPI1_SCK', '/STM32/SPI1_SCK'), ('/TC1/~{FAULT}', '/TC3/~{FAULT}'), ('/STM32/SPI1_MISO', '/STM32/SPI1_MISO'), ('/TC1/~{DRDY}', '/TC3/~{DRDY}'), ('/STM32/SPI1_MOSI', '/STM32/SPI1_MOSI'), ('GND', 'GND'), ('/TC1/DNC', '/TC3/DNC')]
+11-25 12:48:38 root 332:updating GUI message: 'Replicating zones'
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['TC0']
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['TC0'] :[('/TC1/DNC', '/TC0/DNC'), ('/TC1/~{DRDY}', '/TC0/~{DRDY}'), ('+3.3V', '+3.3V'), ('/TC1/~{FAULT}', '/TC0/~{FAULT}'), ('/STM32/SPI1_SCK', '/STM32/SPI1_SCK'), ('/TC1/T+', '/TC0/T+'), ('/STM32/SPI1_MISO', '/STM32/SPI1_MISO'), ('/STM32/SPI1_MOSI', '/STM32/SPI1_MOSI'), ('GND', 'GND'), ('/STM32/PB8', '/STM32/PB9'), ('/TC1/T-', '/TC0/T-')]
+11-25 12:48:38 root 337:updating GUI with: 33
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['TC2']
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['TC2'] :[('/TC1/~{FAULT}', '/TC2/~{FAULT}'), ('+3.3V', '+3.3V'), ('/TC1/DNC', '/TC2/DNC'), ('/STM32/PB8', '/STM32/PB7'), ('/STM32/SPI1_SCK', '/STM32/SPI1_SCK'), ('/TC1/~{DRDY}', '/TC2/~{DRDY}'), ('/STM32/SPI1_MISO', '/STM32/SPI1_MISO'), ('/STM32/SPI1_MOSI', '/STM32/SPI1_MOSI'), ('GND', 'GND'), ('/TC1/T+', '/TC2/T+'), ('/TC1/T-', '/TC2/T-')]
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['TC3']
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['TC3'] :[('+3.3V', '+3.3V'), ('/STM32/PB8', '/STM32/PB6'), ('/TC1/T+', '/TC3/T+'), ('/TC1/T-', '/TC3/T-'), ('/STM32/SPI1_SCK', '/STM32/SPI1_SCK'), ('/TC1/~{FAULT}', '/TC3/~{FAULT}'), ('/STM32/SPI1_MISO', '/STM32/SPI1_MISO'), ('/TC1/~{DRDY}', '/TC3/~{DRDY}'), ('/STM32/SPI1_MOSI', '/STM32/SPI1_MOSI'), ('GND', 'GND'), ('/TC1/DNC', '/TC3/DNC')]
+11-25 12:48:38 root 332:updating GUI message: 'Replicating text'
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['TC0']
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['TC2']
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['TC3']
+11-25 12:48:38 root 332:updating GUI message: 'Replicating drawings'
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['TC0']
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['TC2']
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['TC3']
+11-25 12:48:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete

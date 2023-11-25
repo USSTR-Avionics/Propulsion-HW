@@ -1630,7 +1630,7 @@
     (property "Value" "STM32F103RBT6" (at 195.58 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "QFP50P1200X1200X160-64N" (at 226.06 153.34 0)
+    (property "Footprint" "SamacSys_Parts:QFP50P1200X1200X160-64N" (at 226.06 153.34 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" (at 226.06 253.34 0)

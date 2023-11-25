@@ -665,7 +665,7 @@
     (property "Value" "MAX31856MUD+" (at 146.05 65.5899 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOP65P640X110-14N" (at 158.75 164.77 0)
+    (property "Footprint" "SamacSys_Parts:SOP65P640X110-14N" (at 158.75 164.77 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://componentsearchengine.com/Datasheets/2/MAX31856MUD+.pdf" (at 158.75 264.77 0)
